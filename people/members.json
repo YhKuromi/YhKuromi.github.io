@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Yang Zhuo (2022)",
+        "position": "M.S (Cartography and Geography Information System)",
+        "research": "Remote Sensing",
+        "email": "member1@example.com",
+        "image": "yangzhuo.jpg"
+    },
+    {
+        "name": "Saiwei Li (2022)",
+        "position": "MEng (Resources and Environmental Engineering 01)",
+        "research": "Geodesy",
+        "email": "member2@example.com",
+        "image": "lisaiwei.jpg"
+    },
+    {
+        "name": "Yiming Huang (2022)",
+        "position": "MEng (Resources and Environmental Engineering 03)",
+        "research": "InSAR Technology",
+        "email": "member3@example.com",
+        "image": "huangyiming.jpg"
+    },
+  {
+        "name": "Yu Hang (2023)",
+        "position": "MEng (Resources and Environmental Engineering 01)",
+        "research": "Remote Sensing",
+        "email": "member1@example.com",
+        "image": "member1.jpg"
+    },
+    {
+        "name": "Yangwei Yu (2023)",
+        "position": "MEng (Resources and Environmental Engineering 03)",
+        "research": "Geodesy",
+        "email": "member2@example.com",
+        "image": "member2.jpg"
+    },
+    {
+        "name": "Weibin Huang (2024)",
+        "position": "M.S (Cartography and Geography Information System)",
+        "research": "InSAR Technology",
+        "email": "member3@example.com",
+        "image": "member3.jpg"
+    },
+  {
+        "name": "Wu Hao (2024)",
+        "position": "M.S (Cartography and Geography Information System)",
+        "research": "Remote Sensing",
+        "email": "member1@example.com",
+        "image": "member1.jpg"
+    },
+    {
+        "name": "Yin Kang (2024)",
+        "position": "MEng (Resources and Environmental Engineering 02)",
+        "research": "Geodesy",
+        "email": "member2@example.com",
+        "image": "member2.jpg"
+    },
+    {
+        "name": "Siran Chen (2024)",
+        "position": "MEng (Resources and Environmental Engineering 01)",
+        "research": "InSAR Technology",
+        "email": "member3@example.com",
+        "image": "member3.jpg"
+    }
+
+]
