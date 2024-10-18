@@ -53,4 +53,15 @@ Extend it out a little bit
 开题报告、研究生项目、中期报告等材料提前给，注意deadline前3天给的，默认不需要意见<br><br>
 
 **掌握一个软件能力：** MATLAB/python/ArcGIS/GMT/GEE/origin/GAMMA等
-
+<br><br>
+梦导说他要招既要游戏打得好，又要代码写的6的，<br><br>
+那么游戏打得多好才叫好呢？<br><br>
+我们一致协商认为：<br><br>
+王者荣耀打得过杨卓；<br><br>
+英雄联盟打得过吴昊，黄委彬；<br><br>
+csgo打得过我；<br><br>
+瓦罗兰特打得过尹康；<br><br>
+单机游戏当没说！！！<br><br>
+除了游戏以外，<br><br>
+喝酒喝得过黄一鸣，杨卓；<br><br>
+代码写的过李赛伟也可以~

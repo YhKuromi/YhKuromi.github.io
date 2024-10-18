@@ -37,7 +37,7 @@ body {
 h2 {
     margin: 20px 0;
     font-size: 1.5rem;
-    text-align: center;
+
 }
 
 .contact-info {
@@ -112,4 +112,8 @@ h2 {
 
 .navbar ul li a:hover {
     background-color: #555;
+}
+#md-content h1 {
+    font-size: 2.5rem; /* 增大 h3 标题的字体大小 */
+    color: #007bff;
 }
