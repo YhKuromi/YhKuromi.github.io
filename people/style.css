@@ -150,6 +150,7 @@ p {
     color: #333;  /* 标题颜色为蓝色 */
     margin-bottom: 10px;
 }
+
 /* Group Leader 图片 */
 .leader-image {
     width: 200px;  /* 设置图片宽度 */
@@ -169,13 +170,16 @@ p {
     margin-bottom: 20px;  /* 图片和其他内容的间距 */
 }
 .member-details {
-    margin-top: 3cm; /* 向下移动2cm */
+    margin-top: 2cm; /* 向下移动2cm */
 }
 /* 成员详细信息 */
+
 .member-details h2 {
     font-size: 1.6rem;
     color: #007bff;
 }
+
+
 
 .member-details p {
     font-size: 1.2rem;
@@ -222,3 +226,5 @@ p {
     color: #007bff;  /* 标题颜色 */
     margin-bottom: 15px;
 }
+
+
