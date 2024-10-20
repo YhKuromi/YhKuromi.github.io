@@ -18,7 +18,6 @@
             <li><a href="/news/">News</a></li>
             <li><a href="/photos/">Photos</a></li>
             <li><a href="/joinus/">Join Us</a></li>
-
         </ul>
     </nav>
 
@@ -32,7 +31,7 @@
                 <li><img src="/home/email.png" alt="Email" class="icon"> <a href="mailto:yangms@ynu.edu.cn">Email</a></li>
                 <li><img src="/home/github.png" alt="GitHub" class="icon"> <a href="https://github.com/rsyangms">GitHub</a></li>
                 <li><img src="/home/google-scholar.png" alt="Google Scholar" class="icon"> <a href="https://scholar.google.com.hk/citations?user=MjSFLYoAAAAJ&hl=zh-CN&oi=ao">Google Scholar</a></li>
-                <li><img src="/home/ynu.png" alt="ORCID" class="icon"> <a href="http://www.srees.ynu.edu.cn/info/1139/3282.htm">ORCID</a></li>
+                <li><img src="/home/ynu.png" alt="YNU" class="icon"> <a href="http://www.srees.ynu.edu.cn/info/1139/3282.htm">YNU</a></li>
             </ul>
         </div>
 
@@ -47,19 +46,34 @@
 
     <!-- JavaScript 读取 .md 文件并解析为 HTML -->
     <script>
-        // 读取 news.md 文件并将其内容插入到网页中
-        fetch('research.md')  // 确保路径正确指向 .md 文件
+        // 读取并显示 newr.md 文件的内容
+        fetch('newr.md')  // 确保路径正确指向 .md 文件
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 return response.text();  // 读取 Markdown 文件的内容
             })
-            .then(mdContent => {
-                // 使用 marked.js 将 Markdown 转换为 HTML
-                const htmlContent = marked.parse(mdContent);
+            .then(newrMdContent => {
+                // 使用 marked.js 将 newr.md 转换为 HTML
+                const newrHtmlContent = marked.parse(newrMdContent);
                 // 将解析后的 HTML 内容插入到页面中的指定元素
-                document.getElementById('md-content').innerHTML = htmlContent;
+                document.getElementById('md-content').innerHTML = newrHtmlContent;
+
+                // 读取并显示 research.md 文件的内容
+                return fetch('research.md');
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.text();  // 读取 Markdown 文件的内容
+            })
+            .then(researchMdContent => {
+                // 使用 marked.js 将 research.md 转换为 HTML
+                const researchHtmlContent = marked.parse(researchMdContent);
+                // 将 research.md 的内容附加到 newr.md 的内容之后
+                document.getElementById('md-content').innerHTML += researchHtmlContent;
             })
             .catch(error => {
                 console.error('Error loading Markdown file:', error);

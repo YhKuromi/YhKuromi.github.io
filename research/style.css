@@ -10,6 +10,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* 容器设置 */
 .container {
     display: flex;
     max-width: 1200px;
@@ -18,6 +19,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* 左侧侧边栏样式 */
 .sidebar {
     width: 30%;
     padding: 20px;
@@ -37,32 +39,27 @@ body {
 h2 {
     margin: 20px 0;
     font-size: 1.5rem;
-
 }
 
+/* 联系信息样式 */
 .contact-info {
     list-style: none;
     padding: 0;
-    text-align: left;  /* 确保文字左对齐 */
+    text-align: left;
     width: 100%;
-    margin-left: 3cm;  /* 向右移动 3cm */
-}
-#intro-content {
-    font-size: 20px;      /* 设置字体大小为18px */
-    line-height: 2;     /* 设置行间距为1.6倍字体大小 */
-    color: #333;          /* 字体颜色 */
+    margin-left: 3cm;
 }
 
 .contact-info li {
     margin: 20px 0;
     font-size: 1.2rem;
     display: flex;
-    align-items: center;  /* 图标和文字垂直对齐 */
+    align-items: center;
 }
 
 .contact-info li img {
-    margin-right: 10px;  /* 图标和文字的间距 */
-    width: 24px;  /* 设置图标大小 */
+    margin-right: 10px;
+    width: 24px;
     height: 24px;
 }
 
@@ -76,19 +73,17 @@ h2 {
     color: #007bff;
 }
 
+/* 右侧内容区域样式 */
 .content {
-    width: 70%;
+    width: 70%; /* 确保与侧边栏比例一致 */
     padding: 40px;
+    font-size: 18px; /* 设置右侧内容的字体大小 */
+    background-color: #fff; /* 设置背景颜色 */
+    border-left: 1px solid #ddd; /* 为左右区域加上分隔线 */
+    text-align: justify; /* 设置普通文本两端对齐 */
 }
 
-.intro-image {
-    display: block;        /* 将图片设为块级元素 */
-    margin: 20px auto;     /* 自动居中图片，且在图片上下留有20px的间距 */
-    max-width: 100%;       /* 防止图片超出容器宽度 */
-    height: auto;          /* 保持图片的纵横比 */
-}
-
-
+/* 导航栏设置 */
 .navbar ul {
     list-style-type: none;
     padding: 15px;
@@ -113,7 +108,23 @@ h2 {
 .navbar ul li a:hover {
     background-color: #555;
 }
-#md-content h1 {
-    font-size: 2.5rem; /* 增大 h3 标题的字体大小 */
-    color: #007bff;
+
+/* Markdown 图片样式 */
+#md-content img {
+    max-width: 100%;       /* 图片宽度不超过父容器 */
+    max-height: 100%;      /* 图片高度不超过父容器 */
+    height: auto;          /* 保持图片的纵横比 */
+    display: block;        /* 图片作为块级元素 */
+    margin: 0 auto;        /* 图片居中显示 */
+    object-fit: contain;   /* 确保图片缩放时保持其完整显示，不会超出容器 */
+}
+
+/* Markdown 标题样式 */
+h3 {
+    color: red; /* 设置 h3 标题的字体颜色为红色 */
+}
+
+h1 {
+    color: #007bff;        /* 设置 h3 标题的字体颜色为红色 */
+
 }
