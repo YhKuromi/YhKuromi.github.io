@@ -44,7 +44,9 @@
 **掌握一个软件能力：** MATLAB/python/ArcGIS/GMT/GEE/origin/GAMMA等
 <br><br>
 
-### 梦导要求：游戏打得好，代码扣的6~  ###
+<hr>
+
+### 梦导希望：游戏打得好，代码扣的6~  ###
 
 <br>
 
@@ -52,7 +54,7 @@
 
 <br>
 
-### 欢迎进组共同进步~~~ ###
+### 欢迎进入云南大学雷达遥感小组共同进步~~~ ###
 <img src="game.png"  width="600" />
 <img src="joy.png"  width="600" />
 <img src="emo.png"  width="600" />
