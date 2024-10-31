@@ -228,3 +228,10 @@ p {
 }
 
 
+#leader-info h2 {
+    color: #007bff;
+}
+#leader-info {
+    font-size: 18px;
+    text-align: justify;
+}
